@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.cursor/
+.kiro/
+.claude/
+.agents/
+.agent/
+AGENTS.md
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Client-specific configuration (DO NOT COMMIT)
+.env
+
+# Client-specific assets — these are per-deployment, not in shared repo
+public/Logo.jpeg
+public/Logo.png
+public/logo.png
+public/img/Logo.jpeg
+public/img/Logo.png
+public/favicon.ico
+
+# Keep example files
+!.env.example
